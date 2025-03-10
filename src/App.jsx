@@ -12,6 +12,10 @@ import Bola8Magica from "./components/Bola8Magica.jsx";
 import Calculadora from "./components/Calculadora.jsx";
 import StudentList from "./components/desafio/StudentList.jsx";
 import StudentCard from "./components/desafio/StudentCard.jsx";
+import OnMouseOverEx from "./components/exs-extras/OnMouseOverEx.jsx";
+import OnSubmitEx from "./components/exs-extras/OnSubmitEx.jsx";
+import ContadorPai from "./components/exs-extras/ContadorPai.jsx";
+import ContadorFilho from "./components/exs-extras/ContadorFilho.jsx";
 
 function App() {
   const frutas = ["Maçã", "Banana", "Laranja", "Uva", "Manga"];
@@ -84,6 +88,21 @@ function App() {
       <div className="exercise">
         <h3>Desafio</h3>
         <StudentList />
+      </div>
+
+      <div className="exercise">
+        <h3>Exercício 10 - onMouseOver</h3>
+        <OnMouseOverEx />
+      </div>
+
+      <div className="exercise">
+        <h3>Exercício 11 - onSubmit</h3>
+        <OnSubmitEx />
+      </div>
+
+      <div className="exercise">
+        <h3>Exemplo de Lifting Up com useState</h3>
+        <ContadorPai />
       </div>
 
       <Footer text="Todos os direitos reservados" />

@@ -7,7 +7,9 @@ function StudentCard({ student, onAlert }) {
       <p>Idade: {student.age}</p>
       <p>Cidade: {student.city}</p>
       <p>Curso: {student.course}</p>
-      <button onClick={() => onAlert(student.name)}>Exibir Alerta</button>
+      <button className="button-add" onClick={() => onAlert(student.name)}>
+        Exibir Alerta
+      </button>
     </div>
   );
 }

@@ -181,3 +181,14 @@ button:hover {
   color: #20232a;
   background-color: #9b9a9a;
 }
+
+/* Exs Extras */
+.button-submit {
+  margin-top: 20px;
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #20232a;
+  background-color: #9b9a9a;
+}
